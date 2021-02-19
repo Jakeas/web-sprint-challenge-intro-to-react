@@ -14,4 +14,5 @@
   color: white;
   width: 100%;
   border: 3px solid #443e3e;
+  justify-content: space-around;
 }

@@ -16,12 +16,13 @@ function Char (props) {
         <ParaCat>{"Height: "}</ParaCat>
         <Para>{data.height}</Para>
         {/* <img src={data.homeworld} alt="home planet"/> */}
-
     </Container>
     )
 }
 
 export default Char
+
+
 
 const Container = styled.div`
 
@@ -36,10 +37,11 @@ font-size: 2rem;
 }
 transition: all 0.5s ease-in-out;
 `
+
 const Para = styled.p`
 font-size: 1.5rem;
 align-items: center;
-margin-left: 3%;
+margin-left: 1%;
 color:gold;
 
 &:hover{
@@ -48,6 +50,7 @@ color:gold;
 }
 transition: all 0.3s ease-in-out;
 `
+
 const ParaCat = styled.p`
 font-size: 1.5rem;
 margin-left: 6%;
